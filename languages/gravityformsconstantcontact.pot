@@ -1,0 +1,247 @@
+# Copyright (C) 2022 Gravity Forms
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Constant Contact Add-On 1.7\n"
+"Report-Msgid-Bugs-To: https://gravityforms.com/support\n"
+"Last-Translator: Gravity Forms <support@gravityforms.com>\n"
+"Language-Team: Gravity Forms <support@gravityforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-10-26T18:00:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: gravityformsconstantcontact\n"
+
+#. Plugin Name of the plugin
+msgid "Gravity Forms Constant Contact Add-On"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://gravityforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Integrates Gravity Forms with Constant Contact allowing form submissions to be automatically sent to your Constant Contact account."
+msgstr ""
+
+#. Author of the plugin
+msgid "Gravity Forms"
+msgstr ""
+
+#: class-gf-constantcontact.php:206
+msgid "Subscribe contact to Constant Contact only when payment is received."
+msgstr ""
+
+#: class-gf-constantcontact.php:262
+msgid ""
+"Do you use your Constant Contact account ONLY for this website?\n"
+"\n"
+"If not, please set up a custom app."
+msgstr ""
+
+#: class-gf-constantcontact.php:263
+msgid "Are you sure you want to disconnect from Constant Contact?"
+msgstr ""
+
+#: class-gf-constantcontact.php:327
+msgid "Unable to connect to Constant Contact due to mismatched state."
+msgstr ""
+
+#: class-gf-constantcontact.php:334
+msgid "Unable to connect to Constant Contact."
+msgstr ""
+
+#: class-gf-constantcontact.php:354
+msgid "Constant Contact makes it easy to send email newsletters to your customers, manage your subscriber lists, and track campaign performance. Use Gravity Forms to collect customer information and automatically add it to your Constant Contact subscriber list. If you don't have a Constant Contact account, you can %1$s sign up for one here.%2$s"
+msgstr ""
+
+#: class-gf-constantcontact.php:404
+#: class-gf-constantcontact.php:408
+#: class-gf-constantcontact.php:604
+msgid "Name"
+msgstr ""
+
+#: class-gf-constantcontact.php:408
+msgid "Enter a feed name to uniquely identify this setup."
+msgstr ""
+
+#: class-gf-constantcontact.php:412
+#: class-gf-constantcontact.php:417
+#: class-gf-constantcontact.php:605
+msgid "Constant Contact List"
+msgstr ""
+
+#: class-gf-constantcontact.php:418
+msgid "Select the Constant Contact list you would like to add your contacts to."
+msgstr ""
+
+#: class-gf-constantcontact.php:428
+#: class-gf-constantcontact.php:431
+msgid "Map Fields"
+msgstr ""
+
+#: class-gf-constantcontact.php:431
+msgid "Select which Gravity Form fields pair with their respective Constant Contact fields."
+msgstr ""
+
+#: class-gf-constantcontact.php:435
+#: class-gf-constantcontact.php:439
+msgid "Conditional Logic"
+msgstr ""
+
+#: class-gf-constantcontact.php:440
+msgid "When conditional logic is enabled, form submissions will only be exported to Constant Contact when the conditions are met. When disabled all form submissions will be exported."
+msgstr ""
+
+#: class-gf-constantcontact.php:457
+#: class-gf-constantcontact.php:462
+msgid "Custom Fields"
+msgstr ""
+
+#: class-gf-constantcontact.php:462
+msgid "Select custom fields in Constant Contact to pair with Gravity Forms fields."
+msgstr ""
+
+#: class-gf-constantcontact.php:485
+#: class-gf-constantcontact.php:487
+msgid "Select a Custom Field"
+msgstr ""
+
+#: class-gf-constantcontact.php:516
+msgid "Email Address"
+msgstr ""
+
+#: class-gf-constantcontact.php:522
+msgid "First Name"
+msgstr ""
+
+#: class-gf-constantcontact.php:527
+msgid "Last Name"
+msgstr ""
+
+#: class-gf-constantcontact.php:533
+msgid "Job Title"
+msgstr ""
+
+#: class-gf-constantcontact.php:538
+msgid "Company Name"
+msgstr ""
+
+#: class-gf-constantcontact.php:543
+msgid "Home Phone Number"
+msgstr ""
+
+#: class-gf-constantcontact.php:549
+msgid "Mobile Phone Number"
+msgstr ""
+
+#: class-gf-constantcontact.php:555
+msgid "Work Phone Number"
+msgstr ""
+
+#: class-gf-constantcontact.php:561
+msgid "Address"
+msgstr ""
+
+#: class-gf-constantcontact.php:567
+msgid "City"
+msgstr ""
+
+#: class-gf-constantcontact.php:573
+msgid "State"
+msgstr ""
+
+#: class-gf-constantcontact.php:579
+msgid "ZIP Code"
+msgstr ""
+
+#: class-gf-constantcontact.php:585
+msgid "Country"
+msgstr ""
+
+#: class-gf-constantcontact.php:680
+msgid "Connected to Constant Contact."
+msgstr ""
+
+#: class-gf-constantcontact.php:684
+msgid "Disconnect from Constant Contact"
+msgstr ""
+
+#: class-gf-constantcontact.php:694
+msgid "SSL Certificate Required"
+msgstr ""
+
+#: class-gf-constantcontact.php:695
+msgid "Make sure you have an SSL certificate installed and enabled, then %1$sclick here to continue%2$s."
+msgstr ""
+
+#: class-gf-constantcontact.php:728
+msgid "An application must be created with Constant Contact to get your API Key and App Secret. The app should be dedicated to this website, please do not use the same app with multiple sites."
+msgstr ""
+
+#: class-gf-constantcontact.php:730
+msgid "Login to the %1$sConstant Contact V3 Portal%2$s and create a \"New Application\"."
+msgstr ""
+
+#: class-gf-constantcontact.php:731
+msgid "Enter \"Gravity Forms\" for the application name and click \"Save\"."
+msgstr ""
+
+#: class-gf-constantcontact.php:732
+msgid "Copy your Constant Contact API Key and paste it into the API Key field below."
+msgstr ""
+
+#: class-gf-constantcontact.php:733
+msgid "Click the \"Generate Secret\" button, go through the secret generation process and paste the resulted key in the \"App Secret\" field below."
+msgstr ""
+
+#: class-gf-constantcontact.php:734
+msgid "Paste the URL %s into the Redirect URI field and click \"Save\" in the top right corner of the screen."
+msgstr ""
+
+#: class-gf-constantcontact.php:762
+msgid "API Key"
+msgstr ""
+
+#: class-gf-constantcontact.php:772
+msgid "App Secret"
+msgstr ""
+
+#: class-gf-constantcontact.php:784
+msgid "Connect to Constant Contact"
+msgstr ""
+
+#: class-gf-constantcontact.php:1067
+msgid "Unable to process feed because API could not be initialized."
+msgstr ""
+
+#: class-gf-constantcontact.php:1076
+msgid "A valid Email address must be provided."
+msgstr ""
+
+#: class-gf-constantcontact.php:1084
+msgid "Subscriber details invalid."
+msgstr ""
+
+#: class-gf-constantcontact.php:1092
+msgid "Unable to add/update subscriber: %s"
+msgstr ""
+
+#: class-gf-constantcontact.php:1257
+msgid "You're trying to add a contact which has been deleted from your Constant Contact account. Currently you have to manually revive the contact via the Constant Contact website."
+msgstr ""
+
+#: class-gf-constantcontact.php:1280
+#: class-gf-constantcontact.php:1285
+#: class-gf-constantcontact.php:1311
+#: class-gf-constantcontact.php:1316
+msgid "Access denied."
+msgstr ""
+
+#. translators: 1: open <a> tag, 2: close </a> tag
+#: class-gf-constantcontact.php:1625
+msgid "On March 31, 2022, Constant Contact is ending support for their previous authorization management service, which can result in outdated applications no longer being able to connect. %1$sPlease update your Constant Contact application%3$s using %2$sthese instructions%3$s and connect using your new application to ensure the continued functionality of your form feeds."
+msgstr ""

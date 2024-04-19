@@ -1,0 +1,21 @@
+#tab_gravityformsconstantcontact table.gforms_form_settings > tbody > tr > th {
+    padding: 0;
+    width: 0;
+}
+
+#tab_gravityformsconstantcontact table.gforms_form_settings > tbody > tr:last-child,
+#gform-settings-save {
+    display: none;
+}
+
+#gform_constantcontact_auth_button {
+    margin-bottom: 1em;
+}
+
+#gform_constantcontact_deauth_button {
+    margin-top: 1em;
+}
+
+#gform_constantcontact_auth_container .button {
+    vertical-align: baseline;
+}

@@ -1,0 +1,39 @@
+### 1.7 | 2022-10-26
+- Updated feed processing to prevent delays in form submission by running in the background.
+- Updated token refresh procedure so that it retries when there is an error, reducing service disconnections.
+
+
+### 1.6 | 2022-03-10
+- Fixed an issue connecting to new Constant Contact apps.
+- Updated the connection method to prevent existing apps from breaking as of March 31, 2022.
+
+
+### 1.5 | 2020-09-16
+- Fixed a PHP fatal error which can occur during form submission if the contact exists request fails.
+
+
+### 1.4 | 2020-07-20
+- Added security enhancements.
+- Added a mapping for mobile phone number on the feed settings page.
+- Added partner code.
+- Added support for Gravity Forms 2.5.
+
+
+### 1.3 | 2020-03-16
+- Added translations for Hebrew, Hindi, Japanese, and Turkish.
+- Fixed an issue with the position in the Form Settings menu when multiple add-ons are installed.
+- Fixed a PHP 7.4 notice which occurs when the API is initializing and the access and refresh tokens are not available.
+- Fixed a PHP 7.4 notice which occurs when processing the feed for a new contact.
+
+
+### 1.2 | 2019-11-27
+- Fixed an issue where submissions may fail to be sent to Constant Contact because of an authentication error.
+
+
+### 1.1 | 2019-08-06
+- Fixed a PHP fatal error which could occur on the feed settings page if a WP_Error was returned when getting the custom fields.
+- Fixed a PHP error which could occur when using the http_request_timeout filter with WP 5.1+.
+
+
+### 1.0 | 2019-03-11
+- It's all new!
